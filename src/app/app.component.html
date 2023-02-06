@@ -1,0 +1,4 @@
+<p>This is parent component</p>
+<button type="button" (click)="toggle()" height="10px" width="60px">Toggle button</button>
+<button type="button" (click)="change()" height="10px" width="60px">New title</button>
+<div *ngIf = "show"><app-child [parentTitle]="title"></app-child></div>
